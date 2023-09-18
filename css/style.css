@@ -1,0 +1,164 @@
+/* Estilos para el header */
+header {
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  padding: 15px 0; /* Espaciado interno superior e inferior */
+}
+
+/* Estilos para el logotipo */
+.navbar-brand {
+  font-size: 24px; /* Tamaño de fuente del logotipo */
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+  color: #333; /* Cambia el color del texto de los enlaces */
+  margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos para el botón de hamburguesa en pantallas pequeñas */
+.navbar-toggler-icon {
+  color: #fff; /* Color del ícono del botón de hamburguesa */
+}
+
+/* Cambiar color al botón de hamburguesa al ser activado */
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: #fff; /* Cambiar color del ícono al activar el botón */
+}
+
+/* Estilo para el botón de hamburguesa cuando está inactivo */
+.navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+  background-color: #fff; /* Color del ícono cuando está inactivo */
+}
+body {
+  background-color: white;
+}
+.gridPadre {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.MercadoLiebre {
+  text-align: center;
+  margin-top: 10%;
+}
+.quienes {
+  font-size: 400%;
+}
+.presentacion {
+  font-size: 130%;
+  margin-top: 5%;
+}
+.pedi {
+  font-size: 200%;
+  margin-top: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.pie {
+  margin-top: 10%;
+}
+.formulario {
+  margin-top: 10%;
+}
+
+.card {
+  margin-bottom: 10%;
+  border: solid;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.custom-search {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.custom-search input[type="search"] {
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.productoss {
+  margin-top: 5%;
+}
+.page-link {
+  color: black;
+}
+
+#contactForm {
+  color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+.contact {
+  color: gray;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la página */
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.redes {
+  text-align: center;
+}
+.redes:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.fondoImg {
+  background-image: url(../img/fondodepagina4.jpg);
+}
